@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif  ;
+}
+
+header h4,h1,p{
+    text-align: center;
+    border-radius: 5px;
+}
+header h4 {
+    font-size: large;
+    margin-top: -20px;
+    background-color: #86A7FC;
+    color: wheat;
+}
+header h1 {
+    font: Helvetica;
+    margin-top: 0px;
+    color: cornflowerblue;
+}
+header p {
+    font-size: medium;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+#p-child {
+    font-size: small;
+    margin-top: 0px;
+}
+
+#descsquaresideid {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#fieldsqrside {
+    margin-top: 7px;
+    margin-bottom: 10px;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#fieldsqrside:focus {
+    border: solid gray;
+}
+
+.inputfield {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    color:white;
+    background-color: #86A7FC;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+}
+button:hover {
+    background-color: deepskyblue;
+}
+button:active {
+    background-color: #3468C0;
+    transform: translateY(3px);
+    box-shadow: 0 1px #999;
+}
