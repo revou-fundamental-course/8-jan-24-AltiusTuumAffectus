@@ -1,31 +1,45 @@
 @font-face {
     font-family: Nevis;
-    src: url(nevis.ttf);
+    src: url(../assets/nevis.ttf);
     }
-
-header h4,h1,p{
+header {
+    background-color: #3468C0;
+    color: white;
+}
+table {
+    margin: auto;
+    }
+.clastixtxt {
+    font-family: Nevis;
+    font-size: 25px
+}
+.txtafterclastix {
+    font-family: nevis;
+    font-size: 13px;
+}
+#slogantxt {
+    font-size: 11px;
+    margin-top: -1px;
+}
+.youchoosebut {
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 30px
+}
+#welcometxt2 {
+    font-size: small;
+    margin-top: -11px;
+}
+h4,h1,p{
     font-family: Nevis;
     text-align: center;
-    border-radius: 5px;
 }
-header h4 {
-    font-size: 17px;
-    margin-top: -20px;
-    background-color: #86A7FC;
-    color: wheat;
-}
-.titletxt {
-    margin-top: 0px;
-    color: cornflowerblue;
-}
-p {
-    font-size: 15px;
-    margin-top: -5px;
-    margin-bottom: 5px;
-}
-#p-child {
+.credittextnah {
     font-size: small;
-    margin-top: 0px;
+    margin-top: 20px;
+}
+#ahhfuc2 {
+    margin-top: -10px;
 }
 
 #descsquaresideid {
@@ -54,6 +68,7 @@ p {
 }
 button {
     color:white;
+    font-family: Nevis;
     background-color: #86A7FC;
     border: none;
     border-radius: 5px;
