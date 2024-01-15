@@ -17,9 +17,15 @@ table {
     font-family: nevis;
     font-size: 13px;
 }
+#welcome {
+    text-align: center;
+}
 #slogantxt {
     font-size: 11px;
     margin-top: -1px;
+}
+#iconpng {
+    width: 100px;
 }
 .youchoosebut {
     text-align: center;
@@ -36,7 +42,7 @@ h4,h1,p{
 }
 .credittextnah {
     font-size: small;
-    margin-top: 20px;
+    margin-top: 35px;
 }
 #ahhfuc2 {
     margin-top: -10px;
